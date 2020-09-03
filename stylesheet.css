@@ -25,7 +25,7 @@ html, body, h1, h2, h3, h4, h5, h6, ol, dl, dt, dd, div, span, img, a, table, tr
 
 
 body {
-  background-image: url("top.jpg");
+  background-image: url("img/top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -136,12 +136,10 @@ body {
   padding-left: 10px;
 }
 
-
-.skill-wrapper .skills p {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 20px;
+.skills {
+  position: relative;
 }
+
 
 
 .skill-wrapper {
@@ -149,35 +147,18 @@ body {
   background: rgba(36,20,14,0.8);
 }
 
-.skill-wrapper i {
-  color: white;
-  font-size: 30px;
-  margin-right: 10px;
-  float: left;
-  margin-left: 50px;
 
-}
 
 .skill-wrapper img {
   width: 40%;
   border-radius: 20px;
-  z-index: 5;
+  margin-top: 20px;
+  z-index: 100;
   opacity: 1.0;
-  float: right;
-  position: absolute;
-  top: 0px;
-  left: 500px;
 }
 
-.skills {
-  position: relative;
-  margin-top:35px;
-  margin-left: 30px;
-}
 
-.skills p {
-  margin-left: 100px;
-}
+
 
 .service-wrapper {
   height: 550px;
