@@ -7,6 +7,8 @@ html, body, h1, h2, h3, h4, h5, h6, ol, dl, dt, dd, div, span, img, a, table, tr
   box-sizing: border-box;
 }
 
+
+
 .container {
   max-width: 1020px;
   width: 100%;
@@ -25,7 +27,7 @@ html, body, h1, h2, h3, h4, h5, h6, ol, dl, dt, dd, div, span, img, a, table, tr
 
 
 body {
-  background-image: url("top.jpg");
+  background-image: url("img/top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,6 +47,14 @@ body {
 .header a:hover{
   cursor: pointer;
   color: #f39800;
+}
+
+.container i {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 5px 0;
+  display: none;
 }
 
 .top-wrapper {
@@ -73,7 +83,7 @@ body {
   font-size: 12px;
   font-weight: 300;
   text-align: right;
-  padding-top:100px;
+  padding-top:50px;
 
 }
 
