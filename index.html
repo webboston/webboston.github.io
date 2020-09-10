@@ -7,123 +7,73 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet"　href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b260e44e1c.js" crossorigin="anonymous"></script>
-  <title>Boston-blog</title>
+  <title>Dr. Web</title>
 </head>
-
 <body>
-<header>
-<div id="HomeLink"></div>
-  <div class="header">
+  <header class="cols header">
     <div class="container">
-    <a href="#ContactLink">Contact</a>
-    <a href="#ServiceLink">Service</a>
-    <a href="#SkillLink">Skill</a>
-    <a href="#AboutLink">About</a>
-    <a href="#HomeLink">Home</a>
-  </div>
-</div>
-
-</header>
-
-<div class="top-wrapper">
- <div class="container">
-   <h1>This is my first WEB.<br>
-     I am Boston.</h1>
-    <h5>化学専攻出身, メーカー企画室勤務/理系サラリーマンのボストンです.<br>
-      アフターコロナの世界でWEBエンジニアとしての活動を開始しました.<br>
-    誠心誠意, 全身全霊でWEBサイトを制作いたします.</h5>
-
-    <h6>Photograph by Boston at Mt. Fuji</h6>
- </div>
-</div>
-<div id="AboutLink"></div>
-<div class="message-wrapper">
-  <div class="container">
-    <h3>About</h3>
-    <div class="about">
-      <img src= "About.jpg">
-      <ul class="message-list">
-        <li>　群馬県出身 東京都在住</li>
-        <li>　横浜国立大学工学府博士課程後期修了: 工学博士 (2008)</li>
-        <li>　精密機器メーカー開発職：2003−2010</li>
-        <li>　同メーカー米国現地法人駐在, 研究職：2010−2016</li>
-        <li>　米国から帰任, 同メーカー企画職：2016−2020<br><br>
-        <li>　2020年8月　WEBプログラミング言語の学習開始</li>
-        <li>　2020年11月　WEBサイト制作サービス開始予定</li>
-        <li>　2020年11月　プレゼン資料制作サービス開始予定</li>
-      </ul>
-      <div class="twitter">
-        <i class="fab fa-twitter"></i><a href="https://twitter.com/web_boston" target="_blank">@web_boston</a>
+      <div class="col">
+        <div class="logo">
+          <i class="fas fa-atom"> <a>Dr. Web</a></i>
+        </div>
+      </div>
+      <div class="col">
+        <button type="button" class="menubtn" id="menubtn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav class="menu" id="menu">
+          <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skill</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-
-  </div>
-</div>
-<div id="SkillLink"></div>
-<div class="skill-wrapper">
-  <div class="container">
-    <h3>Skill</h3>
-    <div class="skills">
-      <img src= "PC.JPG">
-    
-
+  </header>
+  <section>
+    <div class="cols top">
+      <div class="container">
+        <h1>Welcome to Dr. Web<br>I am Boston.</h1>
+        <h2>My name is 'Boston', major was Chemistry in the university. <br>I have started working as WEB creator since 2020.<br>I am going to create nicer and creative WEB pages for you with whole my heart.</h2>
+      </div>
     </div>
-  </div>
-</div>
-<div id="ServiceLink"></div>
-<div class="service-wrapper">
-  <div class="container">
-    <h3>Service</h3>
-      <div class="service">
-        <i class="far fa-file-code"></i><br>
-        <span>コーディング</span><br>
-        <p>ご用意頂いたデザインデータをWebサイトへコーディングいたします.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-mobile-alt"></i><br>
-        <span>レスポンシブ対応</span><br>
-        <p>お客様のWEBサイトをスマホ, タブレットに最適化されたレスポンシブデザインへ対応いたします.</p>
-      </div>
-      <div class="service">
-        <i class="fas fa-external-link-alt"></i><br>
-        <span>ランディングページ</span><br>
-        <p>お客様のご要望をヒアリングさせて頂き, ランディングページを制作いたします.</p>
-      </div>
-      <div class="service">
-        <i class="far fa-file-powerpoint"></i><br>
-        <span>プレゼン資料作成</span><br>
-        <p>ご用意頂いた資料, もしくはご要望をヒアリングさせて頂き, プレゼン資料を制作いたします.</p>
-      </div>
-  </div>
-</div>
-  <div id="ContactLink"></div>
-<div class="contact-wrapper">
-  <div class="container">
-    <h3>Contact</h3>
-    <span>ご要望・ご質問等, 何でもお気軽にお問合せください！</span><br>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc7RYntaOx2S1mxZo4jrRRMaVaFcHDaPR2hS2zABLP4YAIuVw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-      <label for="form-name"></label>
-      <p><input id="form-name" type="text" name="entry.2005620554" placeholder="お名前" required=""></p>
+    <div class="cols about">
+      <div class="container">
+        <div class="col pic">
+          <img src="about.jpg"><br>
+          <i class="fab fa-twitter"><a href="https://twitter.com/web_boston" target="_blank">@web_boston</a></i>
+        </div>
+        <div class="col hystry">
+          <ul>
+            <li>　群馬県出身 東京都在住</li>
+          <li>　横浜国立大学工学府博士課程後期修了: 工学博士 (2008)</li>
+          <li>　精密機器メーカー開発職：2003−2010</li>
+          <li>　同メーカー米国現地法人駐在, 研究職：2010−2016</li>
+          <li>　米国から帰任, 同メーカー企画職：2016−2020<br><br>
+          <li>　2020年8月　WEBプログラミング言語の学習開始</li>
+          <li>　2020年11月　WEBサイト制作サービス開始予定</li>
+          <li>　2020年11月　プレゼン資料制作サービス開始予定</li>
+          </ul>
+        </div>
 
-      <label for="form-mail"></label>
-      <p><input id="form-mail" type="email" name="entry.1045781291" placeholder="メールアドレス" required=""></p>
-
-      <label for="form-detail"></label>
-      <p><textarea id="form-detail" name="entry.839337160" placeholder="お問い合わせ内容" rows="5" required=""></textarea></p>
-      <input id="submit" type="submit" value="送信"><input id="reset" type="reset" value="リセット">
-    </form>
-    <script type="text/javascript">var submitted = false;</script>
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='Thanks.html';}"></iframe>
-  </div>
-</div>
-<footer>
-  <div class="footer">
-    <div class="container">
-      <p>Copyright © 2020 Boston-blog All rights reserved.</p>
+      </div>
     </div>
-  </div>
-</footer>
+  </section>
+
+  <footer>
+  </footer>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script>
+    $(function(){
+      $("#menubtn").click(function(){
+        $("#menu").slideToggle();
+      });
+    });
+  </script>
 </body>
 </html>
